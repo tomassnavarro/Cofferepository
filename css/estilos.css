@@ -16,7 +16,7 @@ body{
 /* HEADER */
 
 header {
-    background-image: url(/img/fontimg.jpg);
+    background-image: url(../img/fontimg.jpg);
         background-color: rgba(0, 0, 0, 0.522);
         background-blend-mode: soft-light;
         background-position: center;
@@ -38,7 +38,7 @@ header {
 
 ul li {
     display: inline-block;
-    margin: 25px 25px;
+    margin: 1.3rem 1.3rem;
     color: rgba(255, 255, 255, 0.875);
     text-decoration: none;
 }
@@ -342,4 +342,121 @@ footer {
 
 footer p {
    color: whitesmoke;
+}
+
+@media (max-width:1000px){
+    
+    header {
+        height: 15rem;
+    }
+
+    .content h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+    .subtitulo {
+        font-size: .8rem;
+    }
+    
+    ul li {
+        margin: 1rem;
+    }
+    ul li a {
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:750px) {
+        
+    header {
+        height: 13rem;
+    }
+
+    .content h1 {
+        font-size: 1rem;
+    }
+    
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+    .subtitulo {
+        font-size: .8rem;
+    }
+    
+    .content h1 {
+        font-size: 2.4rem;
+    }
+
+    ul li {
+        margin: 1rem 0.4rem;
+    }
+    ul li a {
+        font-size: .8rem;
+    }
+
+    .footer{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:450px) {
+    
+    a img {
+        width: 2.1rem;
+    }
+    .content h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+    .subtitulo {
+        font-size: .8rem;
+    }
+    
+    .content h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    ul li {
+        margin: 1rem 0.2rem;
+    }
+    ul li a {
+        font-size: 0.4rem;
+    }
+    form {
+        width: 80%;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 1rem;
+        border-radius: 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer{
+        font-size: 0.7rem;
+    }
 }
