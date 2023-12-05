@@ -22,11 +22,12 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 400px;
+        height: 20rem;
         justify-content: space-between;
         color: white;
 
 }
+
 
 .menucontainer {
     display: flex;
@@ -66,7 +67,7 @@ header a:hover {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   padding: 80px;
+   padding: 3rem;
    color: aliceblue;
 }
 
@@ -185,12 +186,14 @@ main .productosventa {
     justify-content: baseline;
     align-items: baseline;
     margin: 10px;
+    
 }
 
 main .produ img {
     width: 200px;
     border-radius: 10px;
     border: 2px solid rgb(144, 129, 110);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .textoprodu {
@@ -221,6 +224,11 @@ main .produ img {
     justify-content: center;
     text-align: center;
     font-size: large;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
 }
 
 /* SECTION FINAL*/
